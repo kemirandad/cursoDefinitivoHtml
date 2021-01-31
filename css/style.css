@@ -1,3 +1,10 @@
 #img_logo{
     width: 45px;
 }
+
+.container_list{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-content: space-around;
+}
