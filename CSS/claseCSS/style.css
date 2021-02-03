@@ -1,0 +1,17 @@
+.p{
+    font-size: larger;
+    font-family: sans-serif;
+    color: aqua;
+    text-align: center;
+}
+
+/* Class */
+.parrafo{
+    color: blueviolet;
+}
+
+/* Id */
+#texto{
+    color: brown;
+    font-size: 24px;
+}
