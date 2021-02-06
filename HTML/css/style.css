@@ -1,10 +1,42 @@
+body{
+    margin: 0;
+    background-color: coral;
+}
+
+.header_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_container nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
 #img_logo{
     width: 45px;
 }
 
 .container_list{
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
+    justify-content: center;
     align-content: space-around;
+}
+
+.container_list_element{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.container_list_element figure{
+    margin: 0;
+}
+
+.container_list_element figure img{
+    width: 30vh;
+    height: 20vw;
 }
